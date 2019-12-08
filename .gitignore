@@ -1,3 +1,4 @@
+# Ignore Packer-related files
 # Cache objects
 packer_cache/
 
@@ -6,3 +7,14 @@ crash.log
 
 # For built boxes
 *.box
+
+# Ignore Terraform-related files
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
